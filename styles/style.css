@@ -1,34 +1,48 @@
 /* Hero Section */
 .hero-section {
-    background: url(../images/catkeyboard.webp);
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  background: url(../images/catkeyboard.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .hero-section h1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .hero-section .lead {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .work-card img {
-    height: 300px;
-    object-fit: cover;
-    border-radius: 0;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 h2 {
-    font-weight: 700;
-    color: #333;
+  font-weight: 700;
+  color: #333;
 }
 
 .modal-body img {
-    width: 100%;
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  aspect-ratio: 14/7;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon {
+  background-color: blueviolet;
+}
+
+.carousel-control-next-icon {
+  background-color: blue;
 }
