@@ -5,10 +5,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <meta
+      property="og:image"
+      content="https://maddiegauthierdesign.github.io/images/herophoto.webp"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Maddie Gauthier Portfolio</title>
+    <meta
+      name="description"
+      content="A creative graphic designer and media professional located in the Twin Cities, MN."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -38,13 +47,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="design.html">Design</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -53,83 +62,44 @@
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">My Portfolio</a>
+        <a class="navbar-brand" href="index.html">Maddie Gauthier Design</a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="navbar-brand" href="index.html">Home</a>
-            </li>
             <li class="nav-item">
               <a class="navbar-brand" href="design.html">Design</a>
             </li>
             <li class="nav-item">
               <a class="navbar-brand" href="about.html">About</a>
             </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="contact.html">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- carousel -->
-    <section class="carousel py-5">
-      <div class="container">
-        <h2 class="text-center mb-5 display-5">My Design Work</h2>
-        <div id="catCarousel" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/bluecat.webp" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/catfriend.webp" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/catkeyboard.webp" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/sunflowercat.webp" />
-            </div>
-            <div class="carousel-item">
-              <img src="images/orangecat.webp" />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#catCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#catCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </button>
-        </div>
-      </div>
-    </section>
-
     <!-- Work Section -->
     <section id="work" class="py-5 sans-serif">
       <div class="container">
-        <h2 class="text-center mb-5 display-5">My Work</h2>
+        <h4 class="text-center">Design</h4>
+        <h5 class="text-center">
+          Stay for a minute and enjoy my graphic design work!
+        </h5>
 
-        <div class="row g-4">
+        <div class="row g-3">
           <!-- Work 1 -->
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="card h-100 work-card">
-              <img src="images/bluecat.webp" />
+              <img src="images/cosmicartwarethumbnail.webp" />
               <div class="card-body">
-                <h5 class="card-title">Project One</h5>
+                <h6 class="card-title">Cosmic Artware Branding</h6>
                 <p class="card-text">
-                  A modern web application built with responsive design
-                  principles. Features interactive components and smooth
-                  animations.
+                  A fun and modern rebrand of the company. Designs include a new
+                  logo, business card, and packaging inserts; all displayed in
+                  this case study.
                 </p>
                 <button
                   type="button"
@@ -137,22 +107,22 @@
                   data-bs-toggle="modal"
                   data-bs-target="#projOneDetails"
                 >
-                  View project one
+                  View project
                 </button>
               </div>
             </div>
           </div>
 
           <!-- Work 2 -->
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="card h-100 work-card">
-              <img src="images/catfriend.webp" />
+              <img src="images/canthumbnail.webp" />
               <div class="card-body">
-                <h5 class="card-title">Project Two</h5>
+                <h6 class="card-title">Sparkle Soda</h6>
                 <p class="card-text">
-                  A modern web application built with responsive design
-                  principles. Features interactive components and smooth
-                  animations.
+                  A simple yet effective design made for a class project.
+                  Created using Adobe Illustrator and Photoshop, full of sparkle
+                  and flavor.
                 </p>
                 <button
                   type="button"
@@ -160,40 +130,143 @@
                   data-bs-toggle="modal"
                   data-bs-target="#projTwoDetails"
                 >
-                  View project two
+                  View project
                 </button>
               </div>
             </div>
           </div>
 
           <!-- Work 3 -->
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="card h-100 work-card">
-              <img src="images/catkeyboard.webp" />
+              <img src="images/festivalthumbnail.webp" />
               <div class="card-body">
-                <h5 class="card-title">Project Three</h5>
+                <h6 class="card-title">Music Festival Poster</h6>
                 <p class="card-text">
-                  A modern web application built with responsive design
-                  principles. Features interactive components and smooth
-                  animations.
+                  A mock promotional flyer design for a hypothetical music
+                  festival in the Twin Cities. Made to feel retro and fun to
+                  invite the audience.
                 </p>
-                <a href="#" class="btn btn-sm btn-primary">View Project</a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projThreeDetails"
+                >
+                  View project
+                </button>
               </div>
             </div>
           </div>
 
           <!-- Work 4 -->
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="card h-100 work-card">
-              <img src="images/sunflowercat.webp" />
+              <img src="images/recyclethumbnail.webp" />
               <div class="card-body">
-                <h5 class="card-title">Project Four</h5>
+                <h6 class="card-title">Study Room Flyer</h6>
                 <p class="card-text">
-                  A modern web application built with responsive design
-                  principles. Features interactive components and smooth
-                  animations.
+                  A flyer I was asked to make for work. This flyer is displayed
+                  in study rooms within the University of St. Thomas' libraries.
                 </p>
-                <a href="#" class="btn btn-sm btn-primary">View Project</a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projFourDetails"
+                >
+                  View project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work 5 -->
+          <div class="col-md-3">
+            <div class="card h-100 work-card">
+              <img src="images/newyorkthumbnail.webp" />
+              <div class="card-body">
+                <h6 class="card-title">New York City Poster</h6>
+                <p class="card-text">
+                  A poster I made just for fun to play around with type and
+                  imagery. It's bold and visually playful to draw the eye to the
+                  center.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projFiveDetails"
+                >
+                  View project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work 6 -->
+          <div class="col-md-3">
+            <div class="card h-100 work-card">
+              <img src="images/teathumbnail.webp" />
+              <div class="card-body">
+                <h6 class="card-title">The Cozy Tea Room Logo</h6>
+                <p class="card-text">
+                  A pastel and cute logo made for a mock company that emphasizes
+                  the cozy and aesthetic feel the company is meant to present.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projSixDetails"
+                >
+                  View project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work 7 -->
+          <div class="col-md-3">
+            <div class="card h-100 work-card">
+              <img src="images/spiderversethumbnail.webp" />
+              <div class="card-body">
+                <h6 class="card-title">Spider-Man Movie Poster</h6>
+                <p class="card-text">
+                  A poster made for a class assignment to represent a movie I
+                  love. The poster plays into visual heirarchy to represent the
+                  plot of the movie.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projSevenDetails"
+                >
+                  View project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work 8 -->
+          <div class="col-md-3">
+            <div class="card h-100 work-card">
+              <img src="images/strawberrythumbnail.webp" />
+              <div class="card-body">
+                <h6 class="card-title">The Sticky Strawberries Poster</h6>
+                <p class="card-text">
+                  A poster made to promote a fictional fruit band's new album.
+                  This was made as part of an assignment for an online course.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projEightDetails"
+                >
+                  View project
+                </button>
               </div>
             </div>
           </div>
@@ -211,9 +284,9 @@
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Modal title
-              </h1>
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                Cosmic Artware Branding
+              </h2>
               <button
                 type="button"
                 class="btn-close"
@@ -225,10 +298,18 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-3">
-                    <h2>Project one detail page</h2>
+                    <h7>
+                      Cosmic Artware is a window cling and art company that I
+                      was asked to create a new logo for. I also took some time
+                      to create a business card, a black and white logo, and a
+                      new insert for the actual window clings. It was
+                      interesting to create a logo from scratch and I learned a
+                      lot about what I can accomplish if given the time and
+                      confidence to do so.
+                    </h7>
                   </div>
                   <div class="col-md-9">
-                    <img src="images/bluecat.webp" />
+                    <img src="images/cosmicartwaremodal.webp" />
                   </div>
                 </div>
               </div>
@@ -257,9 +338,9 @@
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Modal title
-              </h1>
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                Sparkle Soda
+              </h2>
               <button
                 type="button"
                 class="btn-close"
@@ -271,10 +352,339 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-3">
-                    <h2>Project two detail page</h2>
+                    <h7>
+                      This is a project I was assigned for my Graphic Design
+                      class in the Fall of 2024. We were given a choice of a
+                      product template from Photoshop and I chose to go with a
+                      can design. I really like this retro-minimalist style of
+                      design so that's what I incorporated into my company's
+                      aesthetics.
+                    </h7>
                   </div>
                   <div class="col-md-9">
-                    <img src="images/catfriend.webp" />
+                    <img src="images/canmodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project three detail pop-up -->
+      <div
+        class="modal fade"
+        id="projThreeDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                Music Festival Poster
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      This was a mock poster I made for a hypothetical music
+                      festival in the Twin Cities. I had this idea because I saw
+                      a few visually pleasing music festival posters on
+                      Pinterest, but also because I think St.Paul/Minneapolis
+                      should have more live music festivals.
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/festivalmodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project four detail pop-up -->
+      <div
+        class="modal fade"
+        id="projFourDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                Study Room Flyer
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      This flyer was made for work at my student intern job at
+                      the Libraries for the Keffer Library in Minneapolis. This
+                      was made for the study rooms on campus reminding students
+                      to clean up after themselves. The trash cans were located
+                      outside the study room and this often led students to
+                      leave it a mess. I made this flyer to direct them to where
+                      the trash cans and recycle bins were so this problem could
+                      be solved.
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/recyclemodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project five detail pop-up -->
+      <div
+        class="modal fade"
+        id="projFiveDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                New York City Flyer
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      I have always adored New York City and so I wanted to make
+                      a poster that sort of embraced its aesthetic. I found this
+                      beautiful photo on Unsplash (copyright free image site),
+                      by Malte Schmidt, and ran with a design I imagined in my
+                      mind.
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/newyorkmodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project six detail pop-up -->
+      <div
+        class="modal fade"
+        id="projSixDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                The Cozy Tea Room Logo
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      This was another mock company I made to practice my design
+                      skills, called "The Cozy Tea Room". The idea behind it is
+                      that it would be similar to a coffee shop's vibe, where
+                      you can order a drink and then sit down and study/work,
+                      but instead of coffee they would mainly serve tea, (and
+                      yes, maybe some coffee). I wanted the company's aesthetic
+                      to feel cozy and cute and have lots of plants incorporated
+                      into the designs.
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/teamodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project seven detail pop-up -->
+      <div
+        class="modal fade"
+        id="projSevenDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                Spider-Man Movie Poster
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      I made this movie poster for Spider-Man Across the
+                      Spider-Verse in 2024, for a Digital Media class
+                      assignment. I used Adobe Photoshop and images from the web
+                      to create this. Since the movie has this villain called
+                      "The Spot", I used his time-bending spots to showcase a
+                      few of the other characters. Just using his spots instead
+                      of the actual character causes "The Spot" to haunt the
+                      narrative, which was my intention
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/spidermanmodal.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project eight detail pop-up -->
+      <div
+        class="modal fade"
+        id="projEightDetails"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">
+                The Sticky Strawberries Poster
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h7>
+                      I made this poster in the summer of 2023 for one of my
+                      Coursera Graphic Design Certificate classes. I was just
+                      barely starting out with Adobe at the time so this was a
+                      lot of trial, error, and frustration over why I couldn't
+                      find the right things in Illustrator. In the end I learned
+                      a lot about both Adobe and my style of design.
+                    </h7>
+                  </div>
+                  <div class="col-md-9">
+                    <img src="images/strawberrymodal.webp" />
                   </div>
                 </div>
               </div>
@@ -297,17 +707,6 @@
       <div class="container-fluid">
         <h3>Maddie Gauthier</h3>
         <p>Designer and Media Professional</p>
-      </div>
-      <div class="col-md social links">
-        <a href="#">
-          <img src="images/bluecat.webp" />
-        </a>
-        <a href="#">
-          <img src="images/catfriend.webp" />
-        </a>
-        <a href="#">
-          <img src="images/orangecat.webp" />
-        </a>
       </div>
     </footer>
 
