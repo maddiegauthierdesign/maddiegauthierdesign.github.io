@@ -19,6 +19,10 @@
   background-color: #a6567b;
 }
 
+html {
+  background-color: antiquewhite;
+}
+
 /* Hero Section */
 .hero-section {
   background: url(../images/herophoto.webp);
@@ -28,7 +32,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+}
+
+.hero-section2 {
+  background: url(../images/herotwo.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 60vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-section h1 {
@@ -44,15 +58,43 @@
   color: #45593c;
 }
 
+.herotextone {
+  text-align: left;
+}
+
+.herotexttwo {
+  text-align: right;
+}
+
 .work-card img {
   height: 300px;
   object-fit: cover;
   border-radius: 0;
 }
 
+.btn-primary {
+  background-color: #45593c;
+  border-color: #45593c;
+}
+
+.btn-primary:hover {
+  background-color: #a4a66f;
+  border-color: #a4a66f;
+  color: #45593c;
+}
+
+.header {
+  padding-top: 3rem;
+  padding-bottom: 15rem;
+}
+
+.aboutmeimage {
+  border-image-width: 1rem;
+}
+
 h2 {
   font-weight: 900;
-  color: #333;
+  color: #45593c;
   font-family: "Josefin Sans";
 }
 
@@ -62,19 +104,22 @@ h4 {
   font-family: "Josefin Sans";
   font-weight: 400;
   font-size: 80px;
+  color: #45593c;
 }
 
 h5 {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
   font-family: "Josefin Sans";
   font-size: small;
   font-weight: 350;
   font-size: 30px;
+  color: #45593c;
 }
 
 h6 {
   font-size: 18px;
   font-family: "Josefin Sans";
+  color: #45593c;
 }
 
 p {
@@ -86,6 +131,14 @@ h7 {
   font-family: "Josefin Sans";
   font-size: 25px;
   font-weight: 300;
+  color: #45593c;
+}
+
+h8 {
+  font-family: "Josefin Sans";
+  font-size: 23px;
+  font-weight: 300;
+  color: #45593c;
 }
 
 .modal-body img {
@@ -141,4 +194,36 @@ footer img {
 
 footer div.social-links {
   text-align: center;
+}
+
+.about-photo {
+  width: 90%;
+  padding-top: 1rem;
+}
+
+.imagecarousel {
+  position: relative;
+  height: 400px;
+  margin-bottom: 30px;
+  display: flex;
+  width: fit-content;
+  gap: 20px;
+}
+
+.imagecarousel img {
+  margin: 0px 0px;
+  box-shadow: 2px 2px 8px #8a8a8a;
+}
+
+.imagecarousel {
+  animation: bannermove 50s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
