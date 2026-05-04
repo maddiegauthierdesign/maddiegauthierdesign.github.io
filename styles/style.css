@@ -88,10 +88,6 @@ html {
   padding-bottom: 15rem;
 }
 
-.aboutmeimage {
-  border-image-width: 1rem;
-}
-
 h2 {
   font-weight: 900;
   color: #45593c;
@@ -199,6 +195,11 @@ footer div.social-links {
 .about-photo {
   width: 90%;
   padding-top: 1rem;
+}
+
+.about-me {
+  width: 100%;
+  padding-bottom: 5rem;
 }
 
 .imagecarousel {
