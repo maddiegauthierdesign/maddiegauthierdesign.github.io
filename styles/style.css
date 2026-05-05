@@ -98,7 +98,7 @@ h4 {
   padding-top: 6rem;
   padding-bottom: 1rem;
   font-family: "Josefin Sans";
-  font-weight: 400;
+  font-weight: 500;
   font-size: 80px;
   color: #45593c;
 }
@@ -106,9 +106,8 @@ h4 {
 h5 {
   padding-bottom: 2rem;
   font-family: "Josefin Sans";
-  font-size: small;
-  font-weight: 350;
-  font-size: 30px;
+  font-size: 50px;
+  font-weight: 400;
   color: #45593c;
 }
 
@@ -132,8 +131,8 @@ h7 {
 
 h8 {
   font-family: "Josefin Sans";
-  font-size: 23px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 400;
   color: #45593c;
 }
 
