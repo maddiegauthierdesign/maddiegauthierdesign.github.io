@@ -157,6 +157,42 @@ h8 {
   align-items: center;
 }
 
+/* Contact Form */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #45593c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #45593c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a4a66f;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #eeefe7;
+  color: #45593c;
+  padding: 10px;
+  font-family: "Josefin Sans";
+}
+
+/* Footer */
 footer {
   background-color: #a6567b;
   color: white;
@@ -191,8 +227,9 @@ footer div.social-links {
   text-align: center;
 }
 
+/* Photos */
 .about-photo {
-  width: 90%;
+  width: 100%;
   padding-top: 1rem;
 }
 
@@ -201,6 +238,7 @@ footer div.social-links {
   padding-bottom: 5rem;
 }
 
+/* Carousel */
 .imagecarousel {
   position: relative;
   height: 400px;
