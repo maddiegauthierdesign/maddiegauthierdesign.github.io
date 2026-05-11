@@ -34,14 +34,13 @@ html {
   justify-content: center;
 }
 
-.hero-section2 {
+.hero-page {
   background: url(../images/herotwo.webp);
   background-size: cover;
   background-position: 50% 50%;
   height: 60vh;
   display: flex;
   text-align: center;
-  align-items: center;
   justify-content: center;
 }
 
