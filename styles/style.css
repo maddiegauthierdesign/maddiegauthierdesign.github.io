@@ -17,10 +17,15 @@
 
 .navbar {
   background-color: #a6567b;
+  font-family: "Josefin Sans";
 }
 
 html {
   background-color: antiquewhite;
+}
+
+.button {
+  font-family: "Josefin Sans";
 }
 
 /* Hero Section */
@@ -154,6 +159,18 @@ h8 {
 .carousel-control-next-icon {
   size: 4px;
   align-items: center;
+}
+
+.modal-80w .modal-dialog {
+  width: 80% !important;
+  max-width: 80% !important;
+  height: 80% !important;
+  margin: 10% auto !important; /* Centers it with 10% space on top/bottom */
+}
+
+.modal-80w .modal-content {
+  height: 100% !important;
+  overflow-y: auto; /* Adds scrollbar if content is too long */
 }
 
 /* Contact Form */
